@@ -11,9 +11,9 @@ External resources linked to the theme.
   Licensed under SIL Open Font License, 1.1 http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 
 Resources packed within the theme.
+* Images on screenshot is from https://pxhere.com/ link. License: Creative Commons Zero (CC0)
 * Genericons by Joen Asmussen http://genericons.com/
   Licensed under the GPL, version 2 or later http://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
-* Image in the screenshot is from public domain http://unsplash.com/ link: unsplash.com/post/53469911317/download-by-aleks-dorohovich
 * HTML5 Shiv @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
 * The script jquery.cycle.all.js is dual licensed under GPL & MIT
 * Other custom js files are our own creation and is licensed under the same license as this theme.
@@ -46,6 +46,173 @@ and we will include it within the theme from next version update.
 /**********************************************************/
 
 == Changelog ==
+= Version 1.8.2 - 2020-12-15 =
+* Tweak - Update footer credit link with `rel="nofollow"` attributes.
+
+= Version 1.8.1 - 2020-10-12 =
+Fix - Header button text displaying text as url
+
+= Version 1.8.0 - 2020-10-02  =
+* Fix - RTL design issues.
+
+= Version 1.7.9 - 2020-09-24  =
+* Fix - Last menu with sub-menu on hover displays the sub-menu always.
+* Fix - PHP warning message on slider images on certain condition.
+* Tweak - Deprecate Custom CSS customize option provided via theme.
+
+= Version 1.7.8 - 2020-09-11  =
+* Refactor - Customize options re-arrangement
+* Tweak - Updated `Tested up to` to 5.5
+* Remove - Missed repeated unrequired CSS code
+
+= Version 1.7.7 - 2020-08-27  =
+* Added - New Demo (Spacious Farm)- Use this Spacious demo to create your farm or agricultural website.
+* Remove - TGMPA library to recommend plugins.
+* Remove - Repeated unrequired CSS code
+
+= Version 1.7.6 - 2020-08-08 =
+* Tweak       - Child theme compatibility for spacious_hex2rgb function.
+* Enhancement - Links CSS transition.
+* Remove      - Unused codes.
+
+= Version 1.7.5 - 2020-07-27 =
+* Added - New Demo (Spacious Band)- Use this Spacious demo to create a music band website for your music enthusiasts.
+* Fix - File not found: theme-review.css on admin pages.
+* Remove - Unwanted admin page.
+
+= Version 1.7.4 - 2020-07-21 =
+* Fix - Header info text output issue while changing in customizer.
+* Fix - Theme name and version in the admin dashboard while child theme active.
+
+= Version 1.7.3 - 2020-06-19 =
+* Enhancement - Gutenberg compatibility.
+* Tweak - Add more Google Fonts.
+* Added - New Demo (Spacious Vet)- Use this Spacious demo to create your pet-friendly vet website.
+* Added - New Demo (Spacious Event )- Use this Spacious demo if you want to create an event website.
+* Remove - Unrequired deprecated demo config for theme demo lists.
+
+= Version 1.7.2 - 2020-05-27 =
+* Fix - JS error while certain header HTML element not rendered.
+* Tweak - Added new required header fields for style.css.
+* Tweak - Add and improve theme-related notices.
+
+= Version 1.7.1 - 2020-02-19 =
+* Tweak - Refactor theme page according to WordPress theme guidelines.
+
+= Version 1.7.0 - 2020-02-19 =
+* Tweak - Minor Enhancement.
+
+= Version 1.6.9 - 2020-02-10 =
+* Feature - Added Retina Logo Option.
+* Fix     - Input type CSS for comments
+
+= Version 1.6.8 - 2020-01-27 =
+* Added   - New Demo (Spacious Gym)- Start creating your fitness website with this Spacious Gym demo.
+* Added   - New Demo (Spacious Interior)- Use this Spacious demo to start building your online interior designing services.
+* Added   - New Demo (Spacious Company)- Use this Spacious demo to build and grow your company website.
+* Fix     - Design issues of widgets when used in elementor.
+
+= Version 1.6.7 - 2019-10-16 =
+* Added   - New Demo (Spacious Food)- Use this Spacious demo to create a fantastic website for your food enthusiasts.
+* Fix - Empty ID for header display type
+* Tweak - Review notice dismiss button removes display of theme review notice permanently.
+
+= Version 1.6.6 - 2019-08-19 =
+* Added   - New Demo (Spacious Freelancer) - Use this Spacious demo to create your amazing website.
+* Added   - New Demo (Spacious Car Repair) -Use this demo to create the perfect website for your car repair shop.
+* Added - Option to Enable/Disable Header title.
+* Tweak - Update `screen-reader-text` CSS.
+* Tweak - Added `skip-link` to content area.
+* Tweak - Modify menu CSS for keyboard accessibility.
+
+= Version 1.6.5 - 2019-07-12 =
+* Remove - Removed dashboard message to align with the theme review guidelines
+
+= Version 1.6.4 - 2019-07-11 =
+* Tweak - Added `wp_body_open` function to support WordPress 5.2 `wp_body_open` hook.
+* Tweak - Added message to make user aware while installing and activating the ThemeGrill demo importer plugin.
+
+= Version 1.6.3 - 2019-05-23 =
+* Added   - New Demo (Spacious Store) - If you want to create an online store for your website, use this Spacious demo.
+* Feature - Added header button option
+* Feature - Added stretched layout option
+* Feature - Added WooCommerce layout option
+* Feature - Added typography option
+* Feature - Added option to display menu items in one line
+* Tweak   - Add review notice message.
+
+= Version 1.6.2 - 2019-04-10 =
+* Added   - New Demo (Spacious Medical) - Aid your patient's health with the help of this Spacious Medical demo.
+* Feature - Added social icons option
+* Feature - Added Header top menu
+* Feature - Added Header top info text option
+* Feature - Added search icon display in menu
+* Feature - Added cart icon display in menu for WooCommerce
+* Feature - Added footer sidebar column option
+
+= Version 1.6.1 - 2019-03-26 =
+* Fix - Upload Theme button not working
+
+= Version 1.6.0 - 2019-03-06 =
+* Tweak - Added site library and demo import process in About Spacious page.
+
+= Version 1.5.9 - 2019-02-12 =
+* Fix   - Wrong setting id set for Header Display Type option.
+* Tweak - Modify pingback url autodiscovery for single posts, pages, or attachments.
+
+= Version 1.5.8 - 2019-01-16 =
+* Update - Waypoint js to 2.0.5
+
+= Version 1.5.7 - 2018-12-05 =
+* Fix - Gallery padding for Gutenberg
+* Tweak - Utilize single custom JS file for required theme JS settings.
+
+= Version 1.5.6 - 2018-11-20 =
+* Added - Gutenberg compatibility
+* Tweak - Add alt attributes to missed img tags
+
+= Version 1.5.5 - 2018-09-21 =
+* Remove - Backward compatible for header logo.
+* Remove - Backward compatible for favicon.
+* Add    - New style for header display type customizer option.
+* Merged - Header designs customizer option to header display type for easy enhancement in upcoming updates.
+* Remove - Footer designs options.
+
+= Version 1.5.4 - 2018-08-31 =
+* Update - Upsell link.
+* Tweak - Width and height attribute for slider.
+* Update - Screenshot updated as per new wordpress.org guideline.
+
+= Version 1.5.3 - 2018-06-19 =
+* Fix     - Submenu location while fixing out of viewport.
+* Feature - Related posts option.
+* Feature - Author bio option.
+
+= Version 1.5.2 - 2018-05-18 =
+* Fix - Blank space on the right of small screen.
+* Fix - Mobile menu item with sub menu not opening in one click.
+* Fix - search icon spacing.
+
+= Version 1.5.1 - 2018-05-03 =
+* Tweak - Added condition for elementor counter widget js.
+* Fix   - submenu out of viewport.
+
+= Version 1.5 - 2018-03-13 =
+* Feature - Elementor Page Builder integration
+* Feature - Option for displaying a featured image in single post and page
+
+= Version 1.4.9 - 2017-12-15 =
+* Feature - Responsive menu option with submenu toggle
+* Feature - Introduce customizer selective and live refresh feature
+* Feature - Introduce customizer selective refresh widgets feature for theme bundled widgets
+
+= Version 1.4.8 - 2017-10-16 =
+* Fix     - Read more enabled on archive, search pages
+* Tweak   - Add theme support for Jetpack Responsive Videos.
+* Feature - Add support for yoast breadcrumb
+* Fix     - Call to action button issue on chrome
+* Tweaks  - Introduce selective refresh for site title and description
+
 = Version 1.4.7 - 2017-07-05 =
 * Added - Support for starter content added.
 
@@ -60,7 +227,7 @@ and we will include it within the theme from next version update.
 * Added - Support for Video Headers introduced in WordPress 4.7.
 
 = Version 1.4.3 - 2016-12-31 =
-* Fix - Delete the old favicon, site logo and Custom CSS code theme options table supporting the child theme
+* Fix   - Delete the old favicon, site logo and Custom CSS code theme options table supporting the child theme
 * Added - RTL Language support.
 
 = Version 1.4.2 - 2016-12-09 =
@@ -81,18 +248,18 @@ and we will include it within the theme from next version update.
 = Version 1.4.0 =
 * Tweaks - Updated theme tags as per new introduced tags
 * Tweaks - Introduced welcome page for theme.
-* Fix - Removed deprecated load() function used for slider-setting script.
+* Fix    - Removed deprecated load() function used for slider-setting script.
 
 = Version 1.3.9 =
-* Fix - WooCommerce shop error fixed.
-* Fix - Box and Wide at 978px Layout issue on Tab is fixed.
+* Fix     - WooCommerce shop error fixed.
+* Fix     - Box and Wide at 978px Layout issue on Tab is fixed.
 * Feature - Jquery cycle plugin for slider upgraded to Jquery cycle2 v2.1.6.
 * Feature - Added Swipe feature on slider for touch devices.
 
 = Version 1.3.8 =
-* Fix - Slider disable in blog page bug fixed.
-* Tweaks - Theme information is properly organized in Customize panel.
-* Tweaks - Language file updated.
+* Fix     - Slider disable in blog page bug fixed.
+* Tweaks  - Theme information is properly organized in Customize panel.
+* Tweaks  - Language file updated.
 * Feature - Theme is now compatible with WooCommerce.
 * Feature - Primary Color hover effect is added.
 

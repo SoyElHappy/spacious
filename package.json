@@ -1,7 +1,7 @@
 {
   "name": "spacious",
   "title": "Spacious",
-  "version": "1.4.7",
+  "version": "1.8.2",
   "homepage": "https://themegrill.com/themes/spacious",
   "repository": {
     "type": "git",
@@ -10,14 +10,33 @@
   "license": "GPL-3.0+",
   "main": "Gruntfile.js",
   "devDependencies": {
-    "grunt": "~0.4.5",
+    "autoprefixer": "^7.1.6",
+    "browser-sync": "~2.26.3",
+    "grunt": "^0.4.5",
     "grunt-checktextdomain": "~1.0.0",
     "grunt-contrib-compress": "~1.2.0",
     "grunt-contrib-jshint": "~1.0.0",
-    "grunt-wp-i18n": "~0.5.4"
+    "grunt-wp-i18n": "~0.5.4",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-rtlcss": "^1.4.1",
+    "gulp-sass": "^3.2.1",
+    "gulp-watch": "^4.3.11"
   },
   "engines": {
     "node": ">=0.8.0",
     "npm": ">=1.1.0"
+  },
+  "scripts": {
+    "styles": "gulp sassCompile && gulp elementorStylesCompile",
+    "makepot": "grunt makepot",
+    "compress": "grunt compress",
+    "build": "npm run styles && npm run makepot && npm run compress"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "browser-sync": "~2.26.3",
+    "gulp": "~4.0.0"
   }
 }
