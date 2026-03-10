@@ -49,6 +49,15 @@ and we will include it within the theme from next version update.
 /**********************************************************/
 
 == Changelog ==
+== Version 1.9.12- 2025-08-08 ==
+* Update - Settings for blocks.
+
+== Version 1.9.11- 2025-07-16 ==
+* Fix - FontAwesome version to 6.7.2.
+
+== Version 1.9.10 - 2025-05-09 ==
+* Fix - Load text domain warning issue.
+
 == Version 1.9.9 - 2024-12-20 ==
 * Update - Settings for blocks.
 
